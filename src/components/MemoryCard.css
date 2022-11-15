@@ -6,11 +6,13 @@
     border-radius: 5px;
     border: solid 3px navy;
     cursor: pointer;
-    background: repeating-linear-gradient(45deg,
-          #606dbc,
-          #606dbc 10px,
-          #465298 10px,
-          #465298 20px);
+    background: repeating-radial-gradient(
+          circle,
+            white,
+            white 10px,
+            gray 10px,
+            gray 20px
+    );
 }
 
 .logo {
